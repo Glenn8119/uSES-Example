@@ -2,7 +2,7 @@ import {useState} from 'react'
 import {useSyncExternalStore} from 'react'
 import store from './store'
 
-const User = () => {
+const Users = () => {
   const storeValue = useSyncExternalStore(store.subscribe, store.getState)
   const [input, setInput] = useState('')
 
@@ -23,4 +23,4 @@ const User = () => {
   )
 }
 
-export default User
+export default Users

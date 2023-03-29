@@ -1,4 +1,4 @@
-const combineReducer = (reducersObj) => {
+const combineReducers = (reducersObj) => {
   const reducersObjKeys = Object.keys(reducersObj)
 
   return function combinedReducer(currentState, action) {

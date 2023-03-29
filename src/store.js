@@ -1,4 +1,4 @@
-import combineReducer from './mockRedux/combineReducer'
+import combineReducer from './mockRedux/combineReducers'
 import createStore from './mockRedux/createStore'
 
 const counterReducer = (state = {count: 0}, action) => {
